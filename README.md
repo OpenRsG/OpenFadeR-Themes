@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenRsG/OpenFadeR/main/assets/openfader.png" alt="OpenFadeR logo" width="160">
+</p>
+
 <h1 align="center">OpenFadeR-Themes</h1>
 
 <p align="center">
@@ -133,4 +137,4 @@ To get a theme into this repository, open an issue first if it is more than a sm
 
 ## License
 
-AGPL-3.0, see [LICENSE](LICENSE).
+AGPL-3.0, see [LICENSE](LICENSE). Made by [OpenRsG](https://github.com/OpenRsG).
