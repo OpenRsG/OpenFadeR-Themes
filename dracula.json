@@ -2,6 +2,26 @@
   "name": "Dracula",
   "author": "Zeno Rocha",
   "description": "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula : violet, rose et vert vifs sur gris-bleu sombre (palette Dracula, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula: morado, rosa y verde vivos sobre gris azulado oscuro (paleta Dracula, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula: leuchtendes Violett, Pink und Grün auf dunklem Blaugrau (Dracula-Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula: roxo, rosa e verde vivos sobre cinza-azulado escuro (paleta Dracula, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula: viola, rosa e verde vivaci su grigio-blu scuro (palette Dracula, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Dracula: vivid purple, pink and green on dark blue-grey (Dracula palette, mapped by OpenFadeR).": "Dracula: levendig paars, roze en groen op donker blauwgrijs (Dracula-palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#191a21",

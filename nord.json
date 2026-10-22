@@ -2,6 +2,26 @@
   "name": "Nord",
   "author": "Arctic Ice Studio",
   "description": "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord : gris froids de nuit polaire avec bleu glacier et doux accents d'aurore (palette Nord, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord: grises fríos de noche polar con azul glaciar y suaves acentos de aurora (paleta Nord, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord: kalte Grautöne der Polarnacht mit Eisblau und sanften Polarlicht-Akzenten (Nord-Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord: cinzas frios de noite polar com azul-gelo e suaves acentos de aurora (paleta Nord, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord: grigi freddi della notte polare con blu ghiaccio e delicati accenti d'aurora (palette Nord, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Nord: cold polar-night greys with frost blue and gentle aurora accents (Nord palette, mapped by OpenFadeR).": "Nord: koude grijzen van de poolnacht met ijsblauw en zachte poollichtaccenten (Nord-palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#242933",
