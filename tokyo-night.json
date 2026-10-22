@@ -2,6 +2,26 @@
   "name": "Tokyo Night",
   "author": "enkia",
   "description": "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night : indigo profond avec bleu néon, magenta et orange (palette Tokyo Night, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night: índigo profundo con azul neón, magenta y naranja (paleta Tokyo Night, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night: tiefes Indigo mit Neonblau, Magenta und Orange (Tokyo-Night-Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night: índigo profundo com azul neon, magenta e laranja (paleta Tokyo Night, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night: indaco profondo con blu neon, magenta e arancione (palette Tokyo Night, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Tokyo Night: deep indigo with neon blue, magenta and orange (Tokyo Night palette, mapped by OpenFadeR).": "Tokyo Night: diep indigo met neonblauw, magenta en oranje (Tokyo Night-palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#101016",

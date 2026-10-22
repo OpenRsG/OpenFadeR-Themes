@@ -2,6 +2,26 @@
   "name": "Catppuccin Macchiato",
   "author": "Catppuccin",
   "description": "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato : mi-sombre, ardoise froide aux accents pastel (palette officielle, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato: oscuro medio, pizarra fría con acentos pastel (paleta oficial, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato: mitteldunkel, kühles Schiefergrau mit Pastellakzenten (offizielle Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato: escuro médio, ardósia fria com acentos pastel (paleta oficial, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato: scuro medio, ardesia fredda con accenti pastello (palette ufficiale, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Catppuccin Macchiato: medium-dark, cool slate with pastel accents (official palette, mapped by OpenFadeR).": "Catppuccin Macchiato: middeldonker, koel leisteen met pastelaccenten (officieel palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#181926",

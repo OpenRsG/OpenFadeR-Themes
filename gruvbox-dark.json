@@ -2,6 +2,26 @@
   "name": "Gruvbox Dark",
   "author": "Pavel Pertsev",
   "description": "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark : bruns rétro chaleureux avec jaune, orange et aqua terreux (palette Gruvbox, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark: marrones retro cálidos con amarillo, naranja y aguamarina terrosos (paleta Gruvbox, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark: warme Retro-Brauntöne mit erdigem Gelb, Orange und Aqua (Gruvbox-Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark: marrons retrô quentes com amarelo, laranja e aqua terrosos (paleta Gruvbox, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark: marroni retrò caldi con giallo, arancione e acqua terrosi (palette Gruvbox, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Gruvbox Dark: warm retro browns with earthy yellow, orange and aqua (Gruvbox palette, mapped by OpenFadeR).": "Gruvbox Dark: warme retrobruinen met aardse tinten geel, oranje en aqua (Gruvbox-palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#131515",

@@ -2,6 +2,26 @@
   "name": "Rek",
   "author": "OpenFadeR",
   "description": "The original dark look: neutral greys, blue accents, green play, amber cues.",
+  "locales": {
+    "fr": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "Le look sombre d'origine : gris neutres, accents bleus, play vert, cues ambre."
+    },
+    "es": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "El aspecto oscuro original: grises neutros, acentos azules, play verde, cues ámbar."
+    },
+    "de": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "Das ursprüngliche dunkle Design: neutrale Grautöne, blaue Akzente, grünes Play, bernsteinfarbene Cues."
+    },
+    "pt": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "O visual escuro original: cinzas neutros, acentos azuis, play verde, cues âmbar."
+    },
+    "it": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "L'aspetto scuro originale: grigi neutri, accenti blu, play verde, cue ambra."
+    },
+    "nl": {
+      "The original dark look: neutral greys, blue accents, green play, amber cues.": "De originele donkere look: neutrale grijzen, blauwe accenten, groene play, amberkleurige cues."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#111111",

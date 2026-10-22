@@ -2,6 +2,26 @@
   "name": "Catppuccin Frapp\u00e9",
   "author": "Catppuccin",
   "description": "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).",
+  "locales": {
+    "fr": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé : la déclinaison sombre la plus douce, gris-bleu atténué (palette officielle, adaptée par OpenFadeR)."
+    },
+    "es": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé: el sabor oscuro más suave, gris azulado apagado (paleta oficial, adaptada por OpenFadeR)."
+    },
+    "de": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé: die sanfteste dunkle Variante, gedämpftes Blaugrau (offizielle Palette, von OpenFadeR angepasst)."
+    },
+    "pt": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé: o sabor escuro mais suave, cinza-azulado discreto (paleta oficial, adaptada pelo OpenFadeR)."
+    },
+    "it": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé: la variante scura più morbida, grigio-blu tenue (palette ufficiale, adattata da OpenFadeR)."
+    },
+    "nl": {
+      "Catppuccin Frappé: the softest dark flavour, muted blue-grey (official palette, mapped by OpenFadeR).": "Catppuccin Frappé: de zachtste donkere variant, gedempt blauwgrijs (officieel palet, aangepast door OpenFadeR)."
+    }
+  },
   "base": "dark",
   "tokens": {
     "bg": "#232634",

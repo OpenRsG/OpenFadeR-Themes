@@ -2,6 +2,26 @@
   "name": "Rek Light",
   "author": "OpenFadeR",
   "description": "The original light look: pale greys with the same blue, green and amber accents.",
+  "locales": {
+    "fr": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "Le look clair d'origine : gris pâles avec les mêmes accents bleu, vert et ambre."
+    },
+    "es": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "El aspecto claro original: grises pálidos con los mismos acentos azul, verde y ámbar."
+    },
+    "de": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "Das ursprüngliche helle Design: blasse Grautöne mit denselben blauen, grünen und bernsteinfarbenen Akzenten."
+    },
+    "pt": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "O visual claro original: cinzas claros com os mesmos acentos azul, verde e âmbar."
+    },
+    "it": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "L'aspetto chiaro originale: grigi tenui con gli stessi accenti blu, verde e ambra."
+    },
+    "nl": {
+      "The original light look: pale greys with the same blue, green and amber accents.": "De originele lichte look: bleke grijzen met dezelfde blauwe, groene en amberkleurige accenten."
+    }
+  },
   "base": "light",
   "tokens": {
     "bg": "#e4e4e4",

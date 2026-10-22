@@ -2,6 +2,26 @@
   "name": "So Pro",
   "author": "OpenFadeR",
   "description": "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.",
+  "locales": {
+    "fr": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Gris quasi noirs, un accent bleu vif, un plateau blanc et huit pads colorés ; demande la disposition verticale à 2 decks."
+    },
+    "es": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Grises casi negros, un acento azul brillante, un plato blanco y ocho pads de colores; pide la disposición vertical de 2 decks."
+    },
+    "de": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Fast schwarze Grautöne, ein leuchtend blauer Akzent, ein weißer Plattenteller und acht farbige Pads; verlangt das vertikale 2-Deck-Layout."
+    },
+    "pt": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Cinzas quase pretos, um acento azul brilhante, um prato branco e oito pads coloridos; pede o layout vertical de 2 decks."
+    },
+    "it": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Grigi quasi neri, un accento blu brillante, un piatto bianco e otto pad colorati; richiede il layout verticale a 2 deck."
+    },
+    "nl": {
+      "Near-black greys, a bright blue accent, a white platter and eight coloured pads; asks for the vertical 2-deck layout.": "Bijna zwarte grijzen, een felblauw accent, een witte draaitafel en acht gekleurde pads; vraagt om de verticale 2-deck-indeling."
+    }
+  },
   "base": "dark",
   "layout": {
     "deck_layout": "vertical",
