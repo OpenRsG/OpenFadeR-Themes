@@ -72,6 +72,12 @@ Near-black greys, a bright blue accent, a white platter and eight coloured pads 
 
 ![So Pro](media/so-pro.png)
 
+### Studio
+
+A second structural theme (`layout-profile` 2): one window with both waveforms stacked across the top, a deck panel on each side of a central mixer, and the library with AUTOMIX under them. Near-black panels, rounded controls and an orange-to-red waveform. Two decks. File: `studio.json`.
+
+![Studio](media/studio.png)
+
 ### Dracula
 
 Vivid purple, pink and green on a dark blue-grey, after the Dracula palette by Zeno Rocha. File: `dracula.json`.
