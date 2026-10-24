@@ -12,7 +12,7 @@
   <a href="LICENSE"><img alt="License: AGPL-3.0" src="https://img.shields.io/github/license/OpenRsG/OpenFadeR-Themes"></a>
 </p>
 
-Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds eleven more.
+Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds sixteen more.
 
 <p align="center">
   <img src="media/demo.webp" alt="Switching themes in the running app" width="100%">
@@ -78,6 +78,26 @@ A second structural theme (`layout-profile` 2): one window with both waveforms s
 
 ![Studio](media/studio.png)
 
+### Stage themes: Neon Circuit, Frost, Midnight and Ember and Ice
+
+Four themes for the Stage workspace (`layout-profile` 3), where the theme file also decides the arrangement: where the waveforms sit (`stage-wave`), the style of the deck panels (`stage-deck`), the hot cue pads (`stage-pads`), the jog (`jog-style`), a two- or four-channel mixer and its tabs, a strip of effects and sampler pads, the columns of the track list, per-deck colours (`deck-tint`, `wave-style`), glow, bevel and button style. Each one is a single JSON file you can copy and change.
+
+**Neon Circuit**: black glass with a lime deck 1 and a purple deck 2 that glow. Both waveforms stacked across the top with bar numbers, performance decks with a numbered pad grid and a lit jog ring, a four-channel mixer, and waveform previews in the track list. File: `neon-circuit.json`.
+
+![Neon Circuit](media/neon-circuit.png)
+
+**Frost**: light frosted panels with raised controls. Turntable decks with the cover art on the platter, a hot cue list with times, a tempo fader, and a mixer with MIXER, FX and REC tabs. Deck 1 waves blue, deck 2 pink to orange. File: `frost.json`.
+
+![Frost](media/frost.png)
+
+**Midnight**: deep midnight blue. Each deck carries its own waveform and overview, a row of EQ and filter knobs, a big deck number and large CUE, PLAY and SYNC buttons. File: `midnight.json`.
+
+![Midnight](media/midnight.png)
+
+**Ember and Ice**: an orange deck 1 and a blue deck 2, every deck control in its deck's colour. Both waveforms meet in a centre column above the mixer, ring decks show a large tempo ring, and a strip under the decks holds EFFECTS, SOUND COLOR FX and the SAMPLER pads. File: `ember-ice.json`.
+
+![Ember and Ice](media/ember-ice.png)
+
 ### Dracula
 
 Vivid purple, pink and green on a dark blue-grey, after the Dracula palette by Zeno Rocha. File: `dracula.json`.
@@ -112,7 +132,7 @@ Two small examples that set only a few tokens. They show how little a theme need
 
 ## Make your own
 
-You do not need to write JSON by hand. Apply the theme closest to what you want, then in PREFERENCES > THEMES press CUSTOMIZE. The editor lists every token in groups (surfaces, text, accents, waveform, decks and meters, typography, sizes, motion). Pick colours with a colour picker or type `#rrggbb`, step sizes with `−` and `+`, and watch the whole app change as you go. The app is the preview.
+You do not need to write JSON by hand. Apply the theme closest to what you want, then in PREFERENCES > THEMES press CUSTOMIZE. The editor lists every token in groups (surfaces, text, accents, waveform, decks and meters, typography, sizes, stage, style, motion). Pick colours with a colour picker or type `#rrggbb`, step sizes with `−` and `+`, choose layout options such as the deck style or the waveform placement from a list, and watch the whole app change as you go. The app is the preview. To build a layout of your own, start from one of the four Stage themes above.
 
 When you like it, press SAVE AS. The theme is written to `~/.config/openfader/extension/skin/<name>.json` with every token and applied at once. RESET restores a single token, RESET ALL goes back to where you started, DUPLICATE copies an existing theme to edit, and IMPORT adds a file.
 
