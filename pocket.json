@@ -1,0 +1,36 @@
+{
+  "name": "Pocket",
+  "description": "Full Linux workstation with touch navigation, focused decks and persistent mixing controls on compact displays.",
+  "base": "dark",
+  "layout": {
+    "decks": "2",
+    "deck_layout": "horizontal",
+    "line_space": "large",
+    "browse_font": "large",
+    "hot_cue_colors": "pads"
+  },
+  "tokens": {
+    "layout-profile": 1,
+    "touch-breakpoint": 760,
+    "touch-target": 44,
+    "icon-size": 20,
+    "font-size": 14,
+    "font-sm": 13,
+    "font-xs": 12,
+    "h-bar": 48,
+    "h-ctl": 44,
+    "h-ctl-sm": 44,
+    "h-header": 36,
+    "h-tab": 44,
+    "h-toolbar": 52,
+    "h-status": 28,
+    "h-overview": 48,
+    "h-phrase": 16,
+    "ring": 56,
+    "pad-style": 1,
+    "space-md": 8,
+    "radius": 4,
+    "text-dim": "#bac2de",
+    "text-faint": "#a6adc8"
+  }
+}
