@@ -12,7 +12,7 @@
   <a href="LICENSE"><img alt="License: AGPL-3.0" src="https://img.shields.io/github/license/OpenRsG/OpenFadeR-Themes"></a>
 </p>
 
-Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds sixteen more.
+Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds seventeen more.
 
 <p align="center">
   <img src="media/demo.webp" alt="Switching themes in the running app" width="100%">
@@ -68,9 +68,15 @@ Neutral greys with blue accents, green for play and amber for cues. Rek is near 
 
 ### So Pro
 
-Near-black greys, a bright blue accent, a white platter and eight coloured pads in a 4 × 2 grid. It is the one theme that also asks for a layout: the vertical two-deck view, with the enlarged waveforms between the decks. File: `so-pro.json`.
+Near-black greys, a bright blue accent, a white platter and eight coloured pads in a 4 × 2 grid. It also asks for a layout: the vertical two-deck view, with the enlarged waveforms between the decks. File: `so-pro.json`.
 
 ![So Pro](media/so-pro.png)
+
+### Pocket
+
+The Linux app's touch workspace (`layout-profile` 1), with 44 px primary controls, persistent transport and mixing controls, and a Library view. Below a logical window width of 760 px it shows one selected deck; wider windows show a pair. It starts with two decks, and the app's four-deck setting remains available. File: `pocket.json`.
+
+Use OpenFadeR 0.2.8 or newer for Pocket. It needs the core's touch workspace and `touch-breakpoint`, `touch-target` and `icon-size` tokens; older cores that lack them cannot provide this layout. This is a Linux theme, not the separate Android frontend.
 
 ### Studio
 
