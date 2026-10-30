@@ -12,7 +12,7 @@
   <a href="LICENSE"><img alt="License: AGPL-3.0" src="https://img.shields.io/github/license/OpenRsG/OpenFadeR-Themes"></a>
 </p>
 
-Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds seventeen more.
+Themes for [OpenFadeR](https://github.com/OpenRsG/OpenFadeR), the open-source DJ app. One JSON file restyles the whole window, colours to fonts to layout, and it applies while the app runs. The app has two themes built in (Catppuccin Mocha and Latte); this repository holds sixteen more.
 
 <p align="center">
   <img src="media/demo.webp" alt="Switching themes in the running app" width="100%">
@@ -74,19 +74,15 @@ Near-black greys, a bright blue accent, a white platter and eight coloured pads 
 
 ### Pocket
 
-The Linux app's touch workspace (`layout-profile` 1), with 44 px primary controls, persistent transport and mixing controls, and a Library view. Below a logical window width of 760 px it shows one selected deck; wider windows show a pair. It starts with two decks, and the app's four-deck setting remains available. File: `pocket.json`.
+The Linux app's touch workspace (`"layout-profile": "touch"`), with 44 px primary controls, persistent transport and mixing controls, and a Library view. Below a logical window width of 760 px it shows one selected deck; wider windows show a pair. It starts with two decks, and the app's four-deck setting remains available. File: `pocket.json`.
 
 Use OpenFadeR 0.2.8 or newer for Pocket. It needs the core's touch workspace and `touch-breakpoint`, `touch-target` and `icon-size` tokens; older cores that lack them cannot provide this layout. This is a Linux theme, not the separate Android frontend.
 
-### Studio
-
-A second structural theme (`layout-profile` 2): one window with both waveforms stacked across the top, a deck panel on each side of a central mixer, and the library with AUTOMIX under them. Near-black panels, rounded controls and an orange-to-red waveform. Two decks. File: `studio.json`.
-
-![Studio](media/studio.png)
+Core and themes move together, core first: the files on `main` write a choice by its name (`"layout-profile": "stage"`, `"stage-deck": "turntable"`) and the Stage workspace as `layout-profile` 2. A core built from the core repository's `main` with that change reads them; a released 0.2.8 core reports each such value on stderr and keeps the base's value (Pocket and the Stage themes then show the desktop workspace). The Studio theme is gone: the core's Stage workspace replaced it, and a copy of `studio.json` you saved yourself still loads, as a Stage theme.
 
 ### Stage themes: Neon Circuit, Frost, Midnight and Ember and Ice
 
-Four themes for the Stage workspace (`layout-profile` 3), where the theme file also decides the arrangement: where the waveforms sit (`stage-wave`), the style of the deck panels (`stage-deck`), the hot cue pads (`stage-pads`), the jog (`jog-style`), a two- or four-channel mixer and its tabs, a strip of effects and sampler pads, the columns of the track list, per-deck colours (`deck-tint`, `wave-style`), glow, bevel and button style. Each one is a single JSON file you can copy and change.
+Four themes for the Stage workspace (`"layout-profile": "stage"`), where the theme file also decides the arrangement: where the waveforms sit (`stage-wave`), the style of the deck panels (`stage-deck`), the hot cue pads (`stage-pads`), the jog (`jog-style`), a two- or four-channel mixer and its tabs, a strip of effects and sampler pads, the columns of the track list, per-deck colours (`deck-tint`, `wave-style`), glow, bevel and button style. Each one is a single JSON file you can copy and change.
 
 **Neon Circuit**: black glass with a lime deck 1 and a purple deck 2 that glow. Both waveforms stacked across the top with bar numbers, performance decks with a numbered pad grid and a lit jog ring, a four-channel mixer, and waveform previews in the track list. File: `neon-circuit.json`.
 
@@ -138,7 +134,7 @@ Two small examples that set only a few tokens. They show how little a theme need
 
 ## Make your own
 
-You do not need to write JSON by hand. Apply the theme closest to what you want, then in PREFERENCES > THEMES press CUSTOMIZE. The editor lists every token in groups (surfaces, text, accents, waveform, decks and meters, typography, sizes, stage, style, motion). Pick colours with a colour picker or type `#rrggbb`, step sizes with `−` and `+`, choose layout options such as the deck style or the waveform placement from a list, and watch the whole app change as you go. The app is the preview. To build a layout of your own, start from one of the four Stage themes above.
+You do not need to write JSON by hand. Apply the theme closest to what you want, then in PREFERENCES > THEMES press CUSTOMIZE. The editor lists every token in groups (surfaces, text, accents, waveform, decks and meters, typography, sizes, stage, style, library tree and track menu, motion). Pick colours with a colour picker or type `#rrggbb`, step sizes with `−` and `+`, choose layout options such as the deck style or the waveform placement from a list, and watch the whole app change as you go. The app is the preview. To build a layout of your own, start from one of the four Stage themes above.
 
 When you like it, press SAVE AS. The theme is written to `~/.config/openfader/extension/skin/<name>.json` with every token and applied at once. RESET restores a single token, RESET ALL goes back to where you started, DUPLICATE copies an existing theme to edit, and IMPORT adds a file.
 
