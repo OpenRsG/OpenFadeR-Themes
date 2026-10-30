@@ -29,7 +29,8 @@ cargo test --release the_checked_out_themes   # in the core checkout: every them
 
 1. Branch off `main`.
 2. Keep the change focused: one concern per pull request.
-3. Match the style already in the file you are editing.
+3. Match the style already in the file you are editing: list only the tokens that differ from the theme's base, write a choice by its
+   name (`"stage-deck": "turntable"`), and keep the keys in the order of the core's `ui/theme.slint`.
 4. Update the README or docs if you changed behaviour anyone depends on.
 5. Write a commit message that explains *why*, not just what.
 

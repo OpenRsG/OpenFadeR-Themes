@@ -1,5 +1,7 @@
 {
   "name": "Ocean",
+  "author": "OpenFadeR",
+  "description": "Cool blues on the dark base, in a few lines: the short example of the theme guide to copy for your own.",
   "base": "dark",
   "tokens": {
     "bg": "#08141f",
@@ -19,10 +21,10 @@
     "text-disabled": "#3f5d6e",
     "accent": "#00b4d8",
     "accent-hi": "#4cd2ee",
-    "sync": "#00b4d8",
-    "master": "#00b4d8",
     "play": "#3ddc97",
     "cue": "#ffc857",
+    "sync": "#00b4d8",
+    "master": "#00b4d8",
     "wave-bg": "#050d14",
     "wave-low": "#0077b6",
     "wave-mid": "#7fdcf0",
@@ -31,8 +33,8 @@
     "deck2": "#3ddc97",
     "deck3": "#ffc857",
     "deck4": "#ff7b9c",
-    "radius": "3px",
-    "radius-lg": "5px",
+    "radius": 3,
+    "radius-lg": 5,
     "t-fast": "120ms"
   }
 }
